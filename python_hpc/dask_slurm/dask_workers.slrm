@@ -6,6 +6,7 @@
 #SBATCH --ntasks-per-node=24
 #SBATCH --export=ALL
 #SBATCH -t 0:20:00
+#SBATCH --reservation=UCLARES
 
 module load singularity
 
